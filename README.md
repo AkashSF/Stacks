@@ -9,4 +9,7 @@
     2. pop(): Check for stack underflow. Remove data, and then decrement top of stack.
 ## Algorithm
     1. Initialize top of stack as -1.
-    2. According to user input, perform either push or pop operations.
+    2. For push(): Check if top = size -1. If not go to 3, else go to 4.
+    3. Add data and increment top.
+    4. Stack overflow.
+    5. For pop(): If top = -1, stack underflow and exit; else remove data, and decrement pop.
