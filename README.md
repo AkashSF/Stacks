@@ -11,5 +11,5 @@
     1. Initialize top of stack as -1.
     2. For push(): Check if top = size -1. If not go to 3, else go to 4.
     3. Add data and increment top.
-    4. Stack overflow.
+    4. Stack overflow and exit.
     5. For pop(): If top = -1, stack underflow and exit; else remove data, and decrement pop.
